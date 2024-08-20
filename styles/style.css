@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+@import url('https://fonts.cdnfonts.com/css/miama');
+.miama-font{
+  font-family: 'Miama', sans-serif;
+                                          
+}
+
+/* universal css */
+*{
+    margin: 0;
+    
+}
+/* shared background color */
+.bg-black{
+   background-color: #111111;
+   padding-top: 57px;
+   /* width: 100%; */
+}
+
+.btn-primary{
+    background-color: #E6533C;
+    padding: 8px 20px;
+    border-radius: 46px;
+    border: none;
+}
+
+
+
+/* shared color */
+.brand-color{
+    color: #E6533C;
+}
+/* text color */
+.text-color{
+  color: white;
+}
+
+
+/* shared css */
+.displayFlex{
+    display: flex;
+  }
+
+/* navbar related style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+.brand{
+    font-size: 2.25rem;
+    font-weight: bolder;
+    
+    
+}
+.nav-links-border{   
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+.nav-item{
+    list-style: none;
+    
+    margin-right: 47px;
+    
+  }
+.nav-links{
+    margin: 0 auto;
+}
+.nav-link{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+  }
+  .Home-color{
+
+  }
+  
+/* navbar related style */
+.navbar,.banner{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* banner */
+.banner-description{
+  font-size: 1rem;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.banner{
+  display: flex;
+  margin-top: 32px;
+  justify-content: space-between;
+}
+.banner-title{
+  
+  margin-top: 64px;
+  position: static;
+  width: 520px;
+  height: 439px;
+  
+}
+.banner-font-size{
+  font-size: 4.875rem;
+}
+.btn-black{
+  background-color: black;
+  padding: 8px 20px;
+  border: 1px solid white;
+  border-radius: 42px;
+  margin: 0px 14px;
+}
+.btn-description{
+  position: static;
+  width: 224px;
+  height: 54px;
+  padding: 16px 40px 16px 40px;
+  border-radius: 42px;
+  font-size: 1.125rem;
+font-weight: 600;
+}
+.banner-box-image{
+  position: absolute;
+width: 206px;
+height: 96px;
+left: 764px;
+top: 556px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+}
+
+  
+ 
+  
+ 
